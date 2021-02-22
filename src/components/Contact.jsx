@@ -34,7 +34,7 @@ function Contact() {
   return (
     <Container>
       <h1 className="text-white text-right mt-5 fs-75 fw-300 ls-5">
-        CONTACT <span className="text-orange fw-600 "> US</span>{" "}
+        CONTACT <span className="text-orange fw-600 "> USSS</span>{" "}
       </h1>
       <Row>
         <div className="d-flex justify-content-center  align-items-center">
