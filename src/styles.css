@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #1d2d50 !important;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+  /* text-align: center; */
+}
+
+.text-primary {
+  color: #5eaaa8 !important;
+}
+
+.text-darkblue {
+  color: #172b4d !important;
+}
+.text-secondary {
+  color: #f2a154 !important;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-100 {
+  font-weight: 100;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-75 {
+  font-size: 75px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+
+.btn-primary {
+  background-color: #5eaaa8 !important;
+}
+.btn-info {
+  background-color: #f2a154 !important;
+}
+
+.bg-darkblue {
+  background-color: #172b4d !important;
+}
+.bg-lightgreen {
+  background-color: #bed9c7 !important;
+}
+.bg-orange {
+  background-color: #f2a154 !important;
+}
+
+.bg-gray {
+  background-color: #f0f0f0 !important;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+.ls-5 {
+  letter-spacing: 5px;
+}
+
+.border-25 {
+  border-radius: 20px;
+}
+
+Button,
+Button:focus,
+Button:active {
+  border: none !important;
+}
+
+.icon::before {
+  height: 40;
+  font-size: 40px;
+  color: white;
+  padding-left: 10%;
+  display: "block";
+  content: "\02630" !important;
+}
+
+.logo {
+  max-width: 120px;
+  max-height: auto;
+  object-fit: contain;
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.shadows {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 30px -10px;
+}
+
+
+ /*diet css*/
+.diet-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diet-font {
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  margin: 5px 20px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px;
+  display: flex;
+  height: 183px;
+  width: 183px;
+  color: #f2a154;
+}
+
+.img-diet {
+  object-fit: cover;
+
+}
+
+.border-15 {
+  border-radius:15px
+}
+
+.text-darkblue {
+  color: #172b4d;
+}
+.text-lightgreen {
+  color: #bed9c7;
+}
+.text-orange {
+  color: #f2a154;
+}
+.text-orange:hover {
+  color: #f2a154;
+}
+
+.text-transform-upper { 
+  text-transform: uppercase;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.fs-35{
+  font-size: 35px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+

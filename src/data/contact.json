@@ -1,0 +1,31 @@
+{
+  "contact": [
+    {
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQEePJIe3F9Zdw/profile-displayphoto-shrink_800_800/0/1605901614855?e=1619049600&v=beta&t=-Pr62fyIRBa49JBYrRFZMudLPAcQ7_I7mPRvhKCn8Io",
+      "name": "Nezih Can ",
+      "lastname": "Turgut",
+      "caption": "Front-end Developer",
+      "phonenum": "+90 542 542 20 30",
+      "github": "github.com/NezihCT",
+      "email": "nezihcan.turgut@gmail.com"
+    },
+    {
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQEbHhuLwzHstw/profile-displayphoto-shrink_200_200/0/1604305418568?e=1619049600&v=beta&t=A6fyeqD8hsStGRqh44hqqgDWqePtrVhiH4XljZJupfc",
+      "name": "Yağnur ",
+      "lastname": "Tetikcan",
+      "caption": "Front-end Developer",
+      "phonenum": "+90 507 187 00 34",
+      "github": "github.com/yagnurl",
+      "email": "yagnur7@gmail.com"
+    },
+    {
+      "photo": "https://th.bing.com/th/id/Rb2e368729f28e1dbde1d34a982310664?rik=Ov91%2fWHz3mCKSg&riu=http%3a%2f%2fwww.thelogomix.com%2ffiles%2fimagecache%2fv3-logo-detail%2fB-LOGO2.jpg&ehk=OqC9J9WjbJldCr%2fDs7QgwnfSkuzn5poWu%2b3NoIqRlWw%3d&risl=&pid=ImgRaw",
+      "name": "Berkant ",
+      "lastname": "Akçil",
+      "caption": "Front-end Developer",
+      "phonenum": "+90 555 165 38 79",
+      "github": "github.com/BerkantAkcil",
+      "email": "berkantakcil5@gmail.com"
+    }
+  ]
+}
