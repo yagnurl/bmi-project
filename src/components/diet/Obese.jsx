@@ -7,7 +7,7 @@ function Obese() {
   const [data, setData] = useState([]);
   const [nutrients, setNutrients] = useState([]);
 
-  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=89430b222017455c9e23e402434025cf&targetCalories=1400&diet=omnivore&timeFrame=day`;
+  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=2d4ee048b2b2491b9b8ec230b50342c8&targetCalories=1400&diet=omnivore&timeFrame=day`;
 
   let myHeaders = new Headers();
   myHeaders.append(

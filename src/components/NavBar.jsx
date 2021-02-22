@@ -2,6 +2,9 @@ import React from "react";
 import { Nav, Navbar, Img } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from ".././img/logo.png";
+import logogreen from ".././img/logo-green.png";
+import neww from ".././img/new.png";
+import orangee from ".././img/orange.png";
 
 export default function NavBar(props) {
   const navItems = props.link
@@ -20,7 +23,7 @@ export default function NavBar(props) {
   return (
     <Navbar expand="lg">
       <Link to="/">
-        <img src={logo} className="logo" />
+        <img src={orangee} className="logo p-3" />
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

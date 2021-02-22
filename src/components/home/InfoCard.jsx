@@ -84,16 +84,16 @@ const InfoCard = ({ infos, deleteCard }) => {
               </Col>
             </Row>
             <Row className="px-5 ">
-              <p className=" mx-auto text-secondary fw-700 fs-25 ls-5">
+              <p className=" mx-auto text-orange fw-700 fs-25 ls-5">
                 {info.bmi < 18.5
                   ? " UNDERWEIGHT"
                   : info.bmi > 18.5 && info.bmi < 25
-                  ? `NORMAL`
-                  : info.bmi >= 25 && info.bmi < 30
-                  ? " OVERWEIGHT"
-                  : info.bmi >= 30
-                  ? " OBESE"
-                  : "I couldnt find your bmi range"}
+                    ? `NORMAL`
+                    : info.bmi >= 25 && info.bmi < 30
+                      ? " OVERWEIGHT"
+                      : info.bmi >= 30
+                        ? " OBESE"
+                        : "I couldnt find your bmi range"}
               </p>
             </Row>
             <Row className="mx-auto col-md-12 ">
@@ -103,12 +103,12 @@ const InfoCard = ({ infos, deleteCard }) => {
                     info.bmi < 18.5
                       ? "/underweight"
                       : info.bmi > 18.5 && info.bmi < 25
-                      ? "/normal"
-                      : info.bmi >= 25 && info.bmi < 30
-                      ? "/overweight"
-                      : info.bmi >= 30
-                      ? "/obese"
-                      : "/404"
+                        ? "/normal"
+                        : info.bmi >= 25 && info.bmi < 30
+                          ? "/overweight"
+                          : info.bmi >= 30
+                            ? "/obese"
+                            : "/404"
                   }
                   className="text-darkblue text-decoration-none"
                 >

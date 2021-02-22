@@ -11,7 +11,7 @@ function Normal() {
   const [data, setData] = useState([]);
   const [nutrients, setNutrients] = useState([]);
 
-  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=89430b222017455c9e23e402434025cf&targetCalories=2400&diet=omnivore&timeFrame=day`;
+  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=2d4ee048b2b2491b9b8ec230b50342c8&targetCalories=2400&diet=omnivore&timeFrame=day`;
 
   let myHeaders = new Headers();
   myHeaders.append(
@@ -24,7 +24,13 @@ function Normal() {
     headers: myHeaders,
     redirect: "follow"
   };
+  useEffect(() => {
+    document.getElementById("root").style.backgroundColor = "#BED9C7";
 
+    return () => {
+      document.getElementById("root").style.backgroundColor = "#1d2d50";
+    };
+  }, []);
   useEffect(() => {
     getData(apiKey);
 

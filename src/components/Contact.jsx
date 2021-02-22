@@ -8,7 +8,7 @@ function Contact() {
     <Card className="d-flex justify-content-center align-items-center col-sm  bg-none text-white my-5 border-0">
       <Card.Img variant="top" src={item.photo} className="rounded-circle " />
       <Card.Body className="justify-content-center align-items-center ">
-        <Card.Title className="text-secondary text-center fw-600 fs-23">
+        <Card.Title className="text-orange text-center fw-600 fs-23">
           {item.name}
           {item.lastname}
         </Card.Title>
@@ -34,7 +34,7 @@ function Contact() {
   return (
     <Container>
       <h1 className="text-white text-right mt-5 fs-75 fw-300 ls-5">
-        CONTACT <span className="text-secondary fw-600 "> US</span>{" "}
+        CONTACT <span className="text-orange fw-600 "> US</span>{" "}
       </h1>
       <Row>
         <div className="d-flex justify-content-center  align-items-center">

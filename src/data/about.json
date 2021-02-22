@@ -2,14 +2,15 @@
   "info": [
     {
       "title": "ABOUT BMI TRACKER",
-      "content": "buraya content gelecek Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellat accusantium fuga velit ut tempora vel optio",
+      "paragraphOne": "Our project called `Body Mass Index Tracker` follows WHO's BMI classification to give precise BMI data to its users as well as help them keep track of their index. Our goal on this project was to help people who struggle to keep track of following their BMI consistently and help them with personalized diet recommendations with precise calories, fat percentage, carbonhydrate percentage and protein percentage to help them with daily needs.",
+      "paragraphTwo": "Glad to see you stopping by on our humble project, see you again soon!",
+      "paragraphThree": "(Psst, wanna know who are the people made this project? We have great people there, check `contact` tab :) )",
       "features": [
-        "Lorem 1 ",
-        "Lorem 2 ",
-        "Lorem 3 ",
-        "Lorem 4 ",
-        "Lorem 5 ",
-        "Lorem 6 "
+        "A fully function chart to keep progress of your BMI status. ",
+        "A great diet recommendation API to help you achieve your stable BMI.",
+        "Detailed Breakdown of BMI and a tutorial on how to learn your BMI with us! ",
+        "A cookie monster, if you can find him! ",
+        "Soon to be arrived a weekly/daily water intake tracker! "
       ]
     }
   ]

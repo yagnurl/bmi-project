@@ -5,6 +5,7 @@ body {
   font-family: "Poppins";
   letter-spacing: 1px;
   /* text-align: center; */
+  overflow-x: hidden;
 }
 
 .text-primary {
@@ -14,7 +15,7 @@ body {
 .text-darkblue {
   color: #172b4d !important;
 }
-.text-secondary {
+.text-secondar {
   color: #f2a154 !important;
 }
 .fw-700 {
@@ -71,6 +72,7 @@ body {
 .bg-lightgreen {
   background-color: #bed9c7 !important;
 }
+
 .bg-orange {
   background-color: #f2a154 !important;
 }
@@ -106,7 +108,7 @@ Button:active {
 }
 
 .logo {
-  max-width: 120px;
+  max-width: 200px;
   max-height: auto;
   object-fit: contain;
 }
@@ -120,67 +122,4 @@ Button:active {
 }
 
 
- /*diet css*/
-.diet-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.diet-font {
-  background: #ffffff;
-  border: 3px solid #ffffff;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  text-align: center;
-  margin: 5px 20px;
-  font-size: 25px;
-  font-weight: 600;
-  padding: 15px;
-  display: flex;
-  height: 183px;
-  width: 183px;
-  color: #f2a154;
-}
-
-.img-diet {
-  object-fit: cover;
-
-}
-
-.border-15 {
-  border-radius:15px
-}
-
-.text-darkblue {
-  color: #172b4d;
-}
-.text-lightgreen {
-  color: #bed9c7;
-}
-.text-orange {
-  color: #f2a154;
-}
-.text-orange:hover {
-  color: #f2a154;
-}
-
-.text-transform-upper { 
-  text-transform: uppercase;
-}
-
-.fs-18{
-  font-size: 18px;
-}
-.fs-25{
-  font-size: 25px;
-}
-.fs-35{
-  font-size: 35px;
-}
-
-.fw-600 {
-  font-weight: 600;
-}
 

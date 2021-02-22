@@ -7,7 +7,7 @@ function UnderWeight() {
   const [data, setData] = useState([]);
   const [nutrients, setNutrients] = useState([]);
 
-  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=fa86eae893c5475ebb6b0f1f79428cef&targetCalories=3000&diet=omnivore&timeFrame=day`;
+  const apiKey = `https://api.spoonacular.com/mealplanner/generate?apiKey=2d4ee048b2b2491b9b8ec230b50342c8&targetCalories=3000&diet=omnivore&timeFrame=day`;
 
   let myHeaders = new Headers();
   myHeaders.append(
